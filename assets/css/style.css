@@ -1,4 +1,6 @@
-
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
 body {
     background-color: #f5f5f5;
     color: #4e4e4e;
@@ -69,17 +71,6 @@ a:hover {
     margin-right: 4px;
     overflow: hidden;
 }
-#upes{
-    height: 150px;
-    width: auto;
-}
-
-@media (max-width: 900px) {
-    #upes {
-        height: 100px;
-        width: auto;
-    }
-}
 
 .bg-image {
     background-repeat: no-repeat;
@@ -90,13 +81,6 @@ a:hover {
 @media (max-width: 1024px) {
     .bg-image {
         background-attachment: scroll;
-    }
-}
-@media (max-width: 900px) {
-    .bg-image{
-        background-attachment: scroll;
-        background: url("assets/img/hero.jpg"); height: 269px; width: 927px;
-        background-repeat: no-repeat;
     }
 }
 
@@ -227,7 +211,6 @@ a:hover {
     margin: 0 15px 0 0;
     box-shadow: 0 0 0 3px #0078ff;
     transition: all 500ms ease;
-    background-color: white;
 }
 .socials .ico-circle:hover {
     background-color: #0078ff;
@@ -441,7 +424,6 @@ a:hover {
     transition: all 0.5s;
     z-index: 997;
     padding: 20px 0;
-    background-color: black;
 }
 #header .logo {
     font-size: 28px;
@@ -469,7 +451,6 @@ a:hover {
 */
 .navbar {
     padding: 0;
-
 }
 .navbar ul {
     margin: 0;
@@ -955,21 +936,16 @@ a:hover {
     text-align: center;
 }
 .testimonial-box .author-test {
-    margin-top: 16px;
+    margin-top: 1rem;
 }
 .testimonial-box .author-test img {
-
+    margin: 0 auto;
 }
-
-/* .small-img{
-  height: 150px;
-  width: 150px;
-} */
 .testimonial-box .author {
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
-
+    margin: 1rem 0;
     display: block;
     font-size: 1.4rem;
 }
@@ -977,9 +953,10 @@ a:hover {
     font-size: 2rem;
     color: #0078ff;
     background-color: #fff;
-    width: 5px;
-    height: 5px;
+    width: 52px;
+    height: 52px;
     display: block;
+    margin: 0 auto;
     border-radius: 50%;
     line-height: 1.6;
 }
