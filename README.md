@@ -8,4 +8,4 @@
       Pranjal Nautiya
 In this project we have used various technologies like Git, GitHub, Front end web development and bootstrap to complete this project. The link of the webpage is mentioned below:
 
-<h1><a href = "https://prasoonghosh.github.io/Retail-Sales-Bot/" target = "_blank">Retail Sales Bot Webpage</a></h1>
+<h1><a href = "https://prasoonghosh.github.io/Retail-Sales-Bot/" target="_blank">Retail Sales Bot Webpage</a></h1>
