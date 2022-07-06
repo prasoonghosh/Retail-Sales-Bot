@@ -6,3 +6,5 @@
       Vedant Bhatt
       Diethoselhu Sakhrie
       Pranjal Nautiya
+In this project we have used various technologies like Git, GitHub, Front end web development and bootstrap to complete this project. The link of the webpage is mentioned below:
+https://prasoonghosh.github.io/Retail-Sales-Bot/
