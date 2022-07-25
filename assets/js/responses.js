@@ -9,12 +9,11 @@ function getBotResponse(input) {
     }
 
     // Simple responses
-
-        if (input == "hello" || "hi") {
-            return "Hello there! Would you like to book your vehicle?";
-        } else if (input == "goodbye") {
-            return "Talk to you later!";
-        } else {
-            return "Try asking something else!";
-        }
+    if (input == "hello") {
+        return "Hello there!";
+    } else if (input == "goodbye") {
+        return "Talk to you later!";
+    } else {
+        return "Try asking something else!";
     }
+}
